@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "anubis_mobile",
+  "version": "0.1.0",
+  "name": "Anubis Client Mobile",
+  "description": "Touch-friendly Minecraft Java client utilities",
+  "authors": ["Anubis Mobile"],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.anubis.mobile.AnubisClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
